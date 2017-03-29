@@ -6,7 +6,7 @@ A gulp-based nodejs test project about performance comparison of sync(serial) an
 
 ## Description
 
-2000 documents, each file has 100 lines, a total of `20w` line, and each line needs to be modified.
+There are altogether 2000 documents, each file has 100 lines, a total of `20w` line, and each line needs to be modified.
 
 `Async` uses `promise.all()` to modify all files in parallel, ending with the ending of the last file modification;
 
