@@ -2,6 +2,12 @@
 
 一个基于Gulp的测试异步(并行)和同步(串行)性能对比的测试项目
 
+<br>
+
+> EN-README Please move to: [Documentation](README.md)
+
+<br>
+
 ## 描述
 
 这里一共有2000个文件，每个文件有100行，一共`20w`行，每一行都需要处理。
