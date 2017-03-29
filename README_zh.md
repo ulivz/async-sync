@@ -37,9 +37,6 @@
 $ git clone https://github.com/toxichl/async-sync.git
 ```
 
-
-
-
 ## 结论
 
 某些能用并行控制的情况下，请尽量使用并行！
