@@ -5,13 +5,11 @@ const { handle } = require('./handle')
  *
  * @param path
  */
-function handleAsync(path) {
+function changeFile(path) {
 	return readFile(path)
 		.then(content => {
 			// 修改文件的值
-			console.log(1)
-			content = handle(content)
-			return writeFile(path, content)
+			return writeFile(path, handle(content))
 		})
 }
 
@@ -23,7 +21,7 @@ function handleAsync(dir) {
 	return getFileList(dir)
 		.then(pathList => {
 			return Promise.all(
-				pathList.map(path => handleAsync(path))
+				pathList.map(path => changeFile(path))
 			)
 		})
 }
