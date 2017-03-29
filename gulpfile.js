@@ -4,7 +4,7 @@ const { createTest } = require('./lib/createTest.js');
 const { handleAsync } = require('./lib/handleAsync.js');
 const { handleSync } = require('./lib/handleSync.js');
 
-gulp.task('copy', function (callback) {
+gulp.task('init', function (callback) {
 	createTest(
 		path.resolve(__dirname, 'async/raw.txt'),
 		path.resolve(__dirname, 'test'),

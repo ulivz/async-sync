@@ -2,6 +2,7 @@
   "name": "async-sync",
   "version": "1.0.0",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "colors": "^1.1.2"
   }
 }

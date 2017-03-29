@@ -36,6 +36,32 @@
 ```
 $ git clone https://github.com/toxichl/async-sync.git
 ```
+安装依赖：
+
+```
+$ npm i 
+```
+
+> 说明：本测试是基于Gulp的，可以考虑全局安装一下Gulp。
+
+初始化，生成测试文件：
+
+```
+$ gulp init
+```
+
+异步（并行）测试：
+
+```
+$ gulp async
+```
+
+同步（串行）测试：
+
+```
+$ gulp sync
+```
+
 
 ## 结论
 
