@@ -1,6 +1,7 @@
 # async-sync
 
 一个基于Gulp的测试异步(并行)和同步(串行)性能对比的测试项目
+
 A gulp-based nodejs test project about performance comparison of sync(serial) and async(parallel) 
 
 
