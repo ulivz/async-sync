@@ -17,13 +17,13 @@ Time consuming results are tested as follows:
 
 ### Async
 
-<img style="width: 70%" src="result/async-01.png" alt="">
-<img style="width: 70%" src="result/async-02.png" alt="">
+<img style="width: 50%" src="result/async-01.png" alt="">
+<img style="width: 50%" src="result/async-02.png" alt="">
 
 
 ### Sync
-<img style="width: 70%" src="result/sync-01.png" alt="">
-<img style="width: 70%" src="result/sync-02.png" alt="">
+<img style="width: 50%" src="result/sync-01.png" alt="">
+<img style="width: 50%" src="result/sync-02.png" alt="">
 
 > This gap is too big now !!!!
 
