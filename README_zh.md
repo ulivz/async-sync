@@ -22,9 +22,9 @@
 <img style="width: 50%" src="result/sync-01.png" alt="">
 <img style="width: 50%" src="result/sync-02.png" alt="">
 
-> This gap is too big now !!!!
-> This gap is too big now !!!!
-> This gap is too big now !!!!
+> 差距也太大了吧 !!!!
+> 差距也太大了吧 !!!!
+> 差距也太大了吧 !!!!
 
 ## Conclusion
 
