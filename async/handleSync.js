@@ -9,9 +9,9 @@ const { handle } = require('./handle')
 function* syncChangeFile(pathList, callback) {
 	let count = 0;
 	for (let _path of pathList) {
-		console.log(`Start handle No.${count}`)
+		// console.log(`Start handle No.${count}`)
 		yield changeFile(_path, handle).then(() => {
-			console.log(`Successfully handle No.${count}`)
+			// console.log(`Successfully handle No.${count}`)
 			count++;
 			callback && callback()
 		})

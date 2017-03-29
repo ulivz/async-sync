@@ -8,7 +8,7 @@ gulp.task('copy', function (callback) {
 	createTest(
 		path.resolve(__dirname, 'async/raw.txt'),
 		path.resolve(__dirname, 'test'),
-		10
+		1000
 	)
 		.then(data => {
 			callback()
