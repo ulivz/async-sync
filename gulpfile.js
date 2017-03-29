@@ -16,7 +16,7 @@ gulp.task('init', function (callback) {
 			TEST_FILES_COUNT
 		)
 			.then(data => {
-				log.inline(` √ `, `Successfully create ${TEST_FILES_COUNT} test files`)
+				log.inline(` √ `, `Successfully create new ${TEST_FILES_COUNT} test files`)
 				callback()
 			}, err => {
 				console.log('ERR')
