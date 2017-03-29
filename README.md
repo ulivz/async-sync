@@ -30,6 +30,46 @@ Time consuming results are tested as follows:
 - This gap is too big now !!!!
 
 
+## local test
+
+Can clone this item on your local machine for testing:
+
+```
+$ Git clone https://github.com/toxichl/async-sync.git
+```
+Installation Dependencies:
+
+```
+$ mpm i
+```
+
+> Note: This test is based on Gulp, you can consider the global installation of Gulp.
+
+Initialize, if there is an old test files, delete them, and then generate the new test file:
+
+```
+$ gulp init
+```
+
+Asynchronous (parallel) test:
+
+```
+$ gulp async
+```
+
+Synchronous (serial) test:
+
+```
+$ Gulp sync
+```
+
+Remove old test files:
+
+```
+$ Gulp del
+```
+
+
 ## Conclusion
 
 Some of the business scenarios that can use `parallel control`, please use `parallel control`.
