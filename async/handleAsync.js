@@ -2,7 +2,7 @@ const { getFileList, readFile, writeFile } = require('./utils')
 const { handle } = require('./handle')
 
 /**
- *
+ * 读取文件的值，修改并写入
  * @param path
  */
 function changeFile(path) {
