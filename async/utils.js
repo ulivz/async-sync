@@ -48,7 +48,6 @@ function readFile(filePath) {
  * @returns {Promise}
  */
 function writeFile(filePath, content) {
-	console.log(filePath)
 	return new Promise((resolve, reject) => {
 		let writer = fs.createWriteStream(filePath, 'utf-8')
 		writer.write(content)
@@ -63,8 +62,23 @@ function writeFile(filePath, content) {
 }
 
 
+/**
+ * 修改文件的方法
+ * @param path
+ * @param handle
+ * @returns {Promise.<TResult>}
+ */
+function changeFile(path, handle) {
+	return readFile(path)
+		.then(content => {
+			return writeFile(path, handle(content))
+		})
+}
+
+
 module.exports = {
 	getFileList,
 	readFile,
-	writeFile
+	writeFile,
+	changeFile
 }
