@@ -2,6 +2,7 @@ const gulp = require('gulp');
 const path = require('path');
 const {createTest} = require('./async/createTest.js');
 const {handleAsync} = require('./async/handleAsync.js');
+const {handleSync} = require('./async/handleSync.js');
 
 gulp.task('copy', function (callback) {
 	createTest(

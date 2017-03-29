@@ -1,13 +1,12 @@
-const { getFileList, readFile, writeFile } = require('./utils')
+const { getFileList, changeFile } = require('./utils')
 const { handle } = require('./handle')
 
 
-function* syncChangeFile(fileList) {
-	for (let file of fileList) {
-		yield
+function* syncChangeFile(pathList) {
+	for (let path of pathList) {
+		yield changeFile(path)
 	}
 }
-
 
 /**
  * 同步修改
@@ -16,6 +15,12 @@ function* syncChangeFile(fileList) {
 function handleSync(dir) {
 	getFileList(dir)
 		.then(pathList => {
-
+			let process = syncChangeFile(pathList)
+			process.next()
+				.then()
 		})
+}
+
+module.exports = {
+	handleSync
 }
