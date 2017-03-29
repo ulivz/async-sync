@@ -8,7 +8,7 @@ gulp.task('copy', function (callback) {
 	createTest(
 		path.resolve(__dirname, 'async/raw.txt'),
 		path.resolve(__dirname, 'test'),
-		1000
+		10
 	)
 		.then(data => {
 			callback()
@@ -20,9 +20,18 @@ gulp.task('copy', function (callback) {
 		})
 });
 
-
 gulp.task('async', function (callback) {
 	handleAsync(
+		path.resolve(__dirname, 'test')
+	)
+		.then(info => {
+			console.log('Success!')
+			callback()
+		})
+});
+
+gulp.task('sync', function (callback) {
+	handleSync(
 		path.resolve(__dirname, 'test')
 	)
 		.then(info => {
