@@ -16,12 +16,14 @@ Time consuming results are tested as follows:
 
 
 ### Async
-![image_1bcdcisqc1v05823t0v1bl01q5h9.png-26.9kB][1]
-![image_1bcdcnoq2isn1ubgaapnmu10m413.png-17.1kB][2]
+
+<img style="width: 70%" src="result/async-01.png" alt="">
+<img style="width: 70%" src="result/async-02.png" alt="">
+
 
 ### Sync
-![image_1bcdck7vf1rb41mf816bc1tm8akjm.png-24.3kB][3]
-![image_1bcdcq84u8as1b291kb90fcd1g.png-19.2kB][4]
+<img style="width: 70%" src="result/sync-01.png" alt="">
+<img style="width: 70%" src="result/sync-02.png" alt="">
 
 > This gap is too big now !!!!
 
@@ -29,7 +31,3 @@ Time consuming results are tested as follows:
 
 Some of the business scenarios that can use `parallel control`, please use `parallel control`.
 
-  [1]: http://static.zybuluo.com/a472590061/yb2wqmywsph1cfqornw19m85/image_1bcdcisqc1v05823t0v1bl01q5h9.png
-  [2]: http://static.zybuluo.com/a472590061/ek5q45hkbg08euqnuioltwfv/image_1bcdcnoq2isn1ubgaapnmu10m413.png
-  [3]: http://static.zybuluo.com/a472590061/1q7m2sh0ste3d3yvug7soyxf/image_1bcdck7vf1rb41mf816bc1tm8akjm.png
-  [4]: http://static.zybuluo.com/a472590061/e9xpuwehj3wd8unb8h19dgzd/image_1bcdcq84u8as1b291kb90fcd1g.png
