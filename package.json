@@ -1,16 +1,7 @@
 {
-  "name": "application-name",
-  "version": "0.0.1",
-  "scripts": {
-    "debug": "devtool index.js --watch",
-    "debug-vo": "devtool index-valueObject.js --watch",
-    "debug-no": "devtool no.js --watch",
-    "debug-38": "devtool 3-8-test.js --watch",
-    "dev": "devtool async/index.js --watch"
-  },
+  "name": "async-sync",
+  "version": "1.0.0",
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "lodash": "^4.17.4",
-    "supath": "0.0.5"
+    "gulp": "^3.9.1"
   }
 }

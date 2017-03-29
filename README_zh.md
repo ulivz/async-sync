@@ -12,6 +12,8 @@
 
 耗时结果测试如下：
 
+
+
 ### Async
 
 <img style="width: 50%" src="result/async-01.png" alt="">
@@ -22,13 +24,27 @@
 <img style="width: 50%" src="result/sync-01.png" alt="">
 <img style="width: 50%" src="result/sync-02.png" alt="">
 
-> 差距也太大了吧 !!!!
-> 差距也太大了吧 !!!!
-> 差距也太大了吧 !!!!
+> 这差距也太大了吧 !!!!
+> 这差距也太大了吧 !!!!
+> 这差距也太大了吧 !!!!
 
-## Conclusion
 
-Some of the business scenarios that can use `parallel control`, please use `parallel control`.
+## 本地测试
+
+可以clone本项目在你的本机上进行测试：
+
+```
+$ git clone https://github.com/toxichl/async-sync.git
+```
+
+
+
+
+## 结论
+
+某些能用并行控制的情况下，请尽量使用并行！
+
+
 
 
 
