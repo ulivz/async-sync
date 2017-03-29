@@ -2,7 +2,12 @@
 
 A gulp-based nodejs test project about performance comparison of sync(serial) and async(parallel) 
 
-> 中文README请移步: [中文README](README_zh.md)
+<br>
+
+> 中文README请移步: [中文文档](README_zh.md)
+
+<br>
+
 
 ## Description
 
