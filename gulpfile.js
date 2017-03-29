@@ -1,8 +1,8 @@
 const gulp = require('gulp');
 const path = require('path');
-const {createTest} = require('./async/createTest.js');
-const {handleAsync} = require('./async/handleAsync.js');
-const {handleSync} = require('./async/handleSync.js');
+const {createTest} = require('./lib/createTest.js');
+const {handleAsync} = require('./lib/handleAsync.js');
+const {handleSync} = require('./lib/handleSync.js');
 
 gulp.task('copy', function (callback) {
 	createTest(
