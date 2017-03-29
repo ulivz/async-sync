@@ -77,7 +77,7 @@ $ Gulp del
 
 ## Conclusion
 
-Some of the business scenarios that can use `parallel control`, please use `parallel control`.
+In some cases where `parallel control` is allowed, use `parallelism` as much as possible to improve program performance.
 
 
 
