@@ -24,9 +24,9 @@
 <img style="width: 50%" src="result/sync-01.png" alt="">
 <img style="width: 50%" src="result/sync-02.png" alt="">
 
-> 这差距也太大了吧 !!!!
-> 这差距也太大了吧 !!!!
-> 这差距也太大了吧 !!!!
+- 这差距也太大了吧 !!!!
+- 这差距也太大了吧 !!!!
+- 这差距也太大了吧 !!!!
 
 
 ## 本地测试

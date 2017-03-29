@@ -25,9 +25,9 @@ Time consuming results are tested as follows:
 <img style="width: 50%" src="result/sync-01.png" alt="">
 <img style="width: 50%" src="result/sync-02.png" alt="">
 
-> This gap is too big now !!!!
-> This gap is too big now !!!!
-> This gap is too big now !!!!
+- This gap is too big now !!!!
+- This gap is too big now !!!!
+- This gap is too big now !!!!
 
 
 ## Conclusion
