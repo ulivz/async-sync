@@ -27,6 +27,14 @@ gulp.task('init', function (callback) {
 	});
 });
 
+gulp.task('del', function (callback) {
+
+	del(path.resolve(__dirname, 'test'), function () {
+		callback && callback()
+	})
+});
+
+
 gulp.task('async', function (callback) {
 	handleAsync(
 		path.resolve(__dirname, 'test')
