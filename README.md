@@ -1,5 +1,7 @@
 # async-sync
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ulivz/async-sync.svg)](https://greenkeeper.io/)
+
 A gulp-based nodejs test project about performance comparison of sync(serial) and async(parallel) 
 
 <br>
